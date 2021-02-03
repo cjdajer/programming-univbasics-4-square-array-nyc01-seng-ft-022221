@@ -1,10 +1,10 @@
 def square_array(array)
-array = [1, 2, 3]
-new_array = []
+numbers = [1, 2, 3]
 
-array.each do |intenger|
-  new_array << intenger **2 
-end
-return new_array
+square_array(numbers)
+
+new_numbers = []
+
+square_array(new_numbers)
 
 end 
