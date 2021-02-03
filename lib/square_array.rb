@@ -1,10 +1,13 @@
-def square_array(array)
-numbers = [1, 2, 3]
+def square_array(numbers)
+  new_numbers = []
+  counter = 0 
+  
+  while counter < numbers.length()
+  new_numbers << (numbers[counter] ** 2)
+  counter += 1 
+end 
 
-square_array(numbers)
+new_numbers
 
-new_numbers = []
-
-square_array(new_numbers)
 
 end 
